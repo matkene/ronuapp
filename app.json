@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "RonuApp",
+    "slug": "mobile-app",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cmlcompany.RonuApp"
+    },
+    "android": {
+      "package": "com.cmlcompany.RonuApp",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyC010-3hB_FRwyaJ7dMyoP1sxMiUMpwwNM",
+          "certificateHash": "DD:37:62:0C:F7:E8:10:64:B8:04:42:EA:AF:00:AF:5D:45:92:C2:0D"
+          
+          
+        }
+      }
+    }
+  }
+}
